@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: lightyellow;
+  font-family: "Oswald";
+}
+.header {
+  background-color: white;
+}
+.nav {
+  width: 100%;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li a {
+  color: grey;
+  text-decoration: none;
+  display: block;
+  padding: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.menu li {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.menu li:hover {
+  background-color: #f4d03f;
+  color: black;
+  border-radius: 5px;
+}
+
+/* body */
+.intro {
+  font-size: 50px;
+  text-align: center;
+  font-style: oblique;
+  padding: 80px;
+  background-color: whitesmoke;
+}
+.listaproductos {
+  background-color: lightgray;
+  padding: 80px;
+}
+.producto {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.tiposproducto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.empacados {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px 20px 15px;
+  margin-left: 100px;
+  margin-right: 0;
+  align-items: center;
+}
+.empacados p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.empacados:hover {
+  transform: scale(1.2, 1.2);
+}
+.granel {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px 20px 15px;
+  margin-left: 0;
+  margin-right: 100px;
+  align-items: center;
+}
+.granel p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.granel:hover {
+  transform: scale(1.2, 1.2);
+}
+.historia {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.historia1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.historia2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+.reseñaempresa {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.historia3 {
+  font-size: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.historia3 p {
+  margin-bottom: 10px;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4d03f;
+  padding: 50px 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.listafinal {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0px;
+  padding: 20px;
+}
+.listafinal li {
+  list-style-type: none;
+  padding: 8px;
+}
+.listafinal li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.datoscontacto strong {
+  color: red;
+}
+.datoscontacto {
+  padding: 20px;
+  color: black;
+}
+.facebook img:hover {
+  transform: scale(1.5, 1.5);
+}
+.instagram img:hover {
+  transform: scale(1.5, 1.5);
+}
+.cierre {
+  text-align: center;
+  font-style: oblique;
+  padding: 15px;
+  background-color: #f4d03f;
+}
+
+/*productos body*/
+.descripcion1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
+}
+.navproducto1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: justify;
+}
+.producto1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.listaproducto1 {
+  padding: 35px;
+  font-size: 25px;
+}
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.navproducto2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: justify;
+}
+.producto2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.listaproducto2 {
+  padding: 35px;
+  font-size: 25px;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+/*nosotros*/
+.lineahistoria {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 50px 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.lineahistoria {
+  padding: 50px;
+}
+.lineahistoria div {
+  padding: 20px;
+  border: 1px solid black;
+}
+.headerhistoria {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+.puntohistoria {
+  grid-row-start: 2;
+  grid-row-end: span 4;
+  font-size: 18px;
+  background-color: lightyellow;
+  border-radius: 10px;
+  text-align: center;
+}
+.mision {
+  padding: 50px;
+  margin-bottom: 25px;
+}
+.vision {
+  padding: 50px;
+  margin-bottom: 25px;
+}
+/*proceso*/
+.proceso {
+  padding: 20px;
+}
+.titleproceso {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.proceso1 {
+  padding: 25px;
+}
+.proceso1 h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+.proceso1 span {
+  font-size: 20px;
+  font-style: oblique;
+}
+/*contactanos*/
+.contacto {
+  margin-bottom: 35px;
+  margin: 20px;
+}
+.contacto1 {
+  padding: 20px;
+}
+
+/*encuentranos*/
+.locales {
+  padding: 20px;
+}
