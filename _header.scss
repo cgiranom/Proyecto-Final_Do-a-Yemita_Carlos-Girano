@@ -1,0 +1,40 @@
+.header {
+  background-color: $first-bg-color;
+}
+.nav {
+  width: 100%;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  li a {
+    color: $third-text-color;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  li:hover {
+    background-color: $second-bg-color;
+    color: black;
+    border-radius: 5px;
+  }
+}

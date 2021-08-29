@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $second-bg-color;
+  padding: 50px 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.listafinal {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0px;
+  padding: 20px;
+  li {
+    list-style-type: none;
+    padding: 8px;
+  }
+  li a {
+    color: $first-text-color;
+    text-decoration: none;
+    display: block;
+  }
+}
+.datoscontacto {
+  padding: 20px;
+  color: $first-text-color;
+  strong {
+    color: $second-text-color;
+  }
+}
+.facebook img:hover {
+  transform: scale(1.5, 1.5);
+}
+.instagram img:hover {
+  transform: scale(1.5, 1.5);
+}
+.cierre {
+  text-align: center;
+  font-style: oblique;
+  padding: 15px;
+  background-color: $second-bg-color;
+}

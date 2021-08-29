@@ -1,0 +1,26 @@
+.contacto {
+  margin-bottom: 35px;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: $second-text-color;
+}
+.contacto1 {
+  margin-bottom: 35px;
+  margin: 20px;
+  font-size: 30px;
+  color: $first-text-color;
+}
+.contacto2 {
+  padding: 20px;
+  font-size: 20px;
+  input {
+    font-size: 15px;
+  }
+  select {
+    font-size: 15px;
+  }
+  textarea {
+    font-size: 15px;
+  }
+}

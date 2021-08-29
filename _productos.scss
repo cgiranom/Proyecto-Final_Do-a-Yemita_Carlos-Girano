@@ -1,0 +1,59 @@
+.descripcion1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: $first-text-color;
+}
+.navproducto1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: justify;
+}
+.producto1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.listaproducto1 {
+  padding: 35px;
+  font-size: 25px;
+}
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.navproducto2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: justify;
+}
+.producto2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.listaproducto2 {
+  padding: 35px;
+  font-size: 25px;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
